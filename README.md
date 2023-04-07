@@ -4,7 +4,23 @@
 
 `yarn`
 
-`node --watch index.js`
+### Start API
+
+`cd api && node --watch index.js`
+
+### APP
+
+Apollo-client
+
+`cd app-apollo-client && yarn run dev`
+
+or Urql
+
+`cd app-urql && yarn run dev`
+
+## Test
+
+Open app on browser or
 
 open http://localhost:4000/
 

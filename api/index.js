@@ -421,7 +421,7 @@ const books = [
 const resolvers = {
   Query: {
     books: async function* (root) {
-      for await (const book of books.splice(5)) {
+      for await (const book of books.slice(0, 5)) {
         console.log("yield", book);
 
         yield book;

@@ -1,12 +1,8 @@
 {
-  "type": "module",
-  "dependencies": {
-    "@apollo/server": "^4.6.0",
-    "graphql": "^17.0.0-alpha.2"
-  },
-  "name": "test-graphql-stream",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Pierrick <mulotmail@gmail.com>",
-  "license": "MIT"
+  "private": true,
+  "workspaces": [
+    "api",
+    "app-apollo-client",
+    "app-urql"
+  ]
 }
